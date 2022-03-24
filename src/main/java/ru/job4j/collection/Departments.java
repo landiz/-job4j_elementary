@@ -11,11 +11,12 @@ public class Departments {
             String str = "";
             String regex = "^K\\d|^k\\d";
             for (String el : value.split("/")) {
-                if (Pattern.matches(regex, el))
+                if (Pattern.matches(regex, el)) {
                     str = el;
-                else {
-                    if (str.equals(""))
+                } else {
+                    if (str.equals("")) {
                         str = el;
+                    }
                     str = str + "/" + el;
                 }
                 tmp.add(str);

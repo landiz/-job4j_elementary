@@ -21,11 +21,12 @@ public class DepDescComp implements Comparator<String> {
                     }
                 }
             } else {
-                if (i == 0)
+                if (i == 0) {
                     rtn = str1[i].compareTo(str2[i]) * -1;
-                else
+                } else {
                     rtn = str1[i].compareTo(str2[i]);
-                break;
+                    break;
+                }
             }
         }
         return rtn;
