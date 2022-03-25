@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     @Test
-    public void when1010to2020then14() {
+    public void when1010to2020then14dot14() {
         double expected = 14.14;
         int x1 = 10;
         int y1 = 10;
